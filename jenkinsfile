@@ -2,7 +2,7 @@ pipeline {
     agent { label 'JAVA_8' }
     options {
         retry(3)
-        timeout(time: 30, units: 'MINUTES') 
+        timeout(time: 30, unit: 'MINUTES') 
     }
     triggers {
         pollSCM('* * * * *')
