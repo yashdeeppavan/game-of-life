@@ -35,12 +35,12 @@ pipeline {
         success {
             mail subject: 'your project is effective',
                  body: 'your project is effective',
-                 to: 'pavankumargoriparthi6@gmail.com'    
+                 to: 'all@qt.com'    
         }
         failure {
              mail subject: 'your project is defective',
                  body: 'your project is defective',
-                 to: 'pavankumargoriparthi6@gmail.com'
+                 to: 'all@qt.com'
         }
     }
 }
